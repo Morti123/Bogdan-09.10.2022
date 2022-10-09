@@ -14,7 +14,7 @@ int main()
     if (t > 20) {
         cout << "on" << endl;
     }
-    if (t <= 20) {
+    else {
         cout << "off" << endl;
     }*/
    // n3
@@ -56,15 +56,16 @@ int main()
    /* int t, nt;
     cin >> t;
     cin >> nt;
-     if (t > 20 ) {
+    if (nt < t) {
+        cout << "open window" << endl;
+    }
+    else  if (t > 20 ) {
         cout << "ac on" << endl;
     }
     else if (t <= 20) {
         cout << "ac off" << endl;
-    }
-    else if (nt < t) {
-        cout << "open window" << endl;*/
-
+    }*/
+   
 
 
 
